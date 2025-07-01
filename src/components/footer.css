@@ -1,0 +1,123 @@
+.footer-container{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(251, 248, 242);
+}
+.footer-first-sec{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-first-sec img{
+    height: 30px;
+}
+.footer-newsletter-container{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-newsletter-container p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.applications-container{
+    width: 350px;
+    height: 100%;
+    display: flex;
+}
+.footer-application-store{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+.footer-application-store img{
+    width: 80%;
+    height: 25%;
+}
+.footer-newsletter-box-and-button{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    
+}
+.footer-newsletter-box{
+    height: 90%;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    border: solid 1.5px rgb(22, 166, 255);
+    border-radius: 5px;
+}
+.footer-newsletter-box-and-button .btn{
+    width: 80px;
+    height: 90%;
+    margin-left: 20px;
+    background: rgb(22, 166, 255);
+    border-style: none;
+    border-radius: 5px;
+}
+.footer-line{
+    /* background: #000; */
+    margin-bottom: 50px;
+    display: flex;
+}
+.footer-line hr{
+    color: #000;
+    width: 100%;
+    
+
+}
+
+.footer-second-sec{
+    height: 350px;
+    width: 85%;
+    margin-left: 7.5%;
+}
+.footer-sec-main-container{
+    height: 249px;
+    width: 100%;
+    display: flex;
+}
+.footer-content{
+    width: 300px;
+    height: 150px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.footer-texts{
+    margin-left: 10px;
+    width: 200px;
+}
+.footer-texts p{
+    margin-top: 10px;
+}
+.footer-addres{
+    width: 200px;
+}
+.footer-addres h3{
+    margin-bottom: 10px;
+}
+.footer-addres p{
+    margin-top: 10px;
+}
+.footer-copyright-container{
+    background: #ebe9e2;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-copyright-txt{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+}

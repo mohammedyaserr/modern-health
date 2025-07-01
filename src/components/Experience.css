@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.experience-container{
+    background: rgb(239, 235, 226);
+    width: 100%;
+    height: 1000px;
+}
+
+.experience-headings{
+    width: 80%;
+    height: 250px;
+    margin-left: 10%;
+    color: aliceblue;
+}
+
+.experience-headings p {
+    color: rgb(22, 166, 255);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.experience-headings h3 {
+    color: black;
+    font-size: 45px;
+    width: 590px;
+}
+.experience-slider-container{
+    width: 90%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.experience-slider{
+    margin-top: 20px;
+    background:url(../assets/67007a211589f419b5c1b42a_nextdoor-img.jpg);
+    height: 570px;
+    width: 860px;
+    border-radius: 18px;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
+.experience-slider-txt{
+    background: #00a3ff;
+    height: 85%;
+    width: 405px;
+    margin-top: 3%;
+    border-radius: 15px;
+}
+.experience-slider-img{
+    width: 90%;
+    margin-left: 10%;
+    height: 25%;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    
+}
+.experience-slider-txt p{
+    width: 70%;
+    margin-left: 10%;
+    height: 200px;
+    font-size: 21px;
+    color: white;
+}
+.quotes {
+    height: 110px;
+    margin-left: 85px;
+    margin-top: -10px;
+}
+.experience-slider-txt h4{
+    width: 70%;
+    margin-left: 10%;
+    height: 200px;
+    font-size: 21px;
+    color: white;
+    margin-top: 100px;
+}
+.experience-slider-txt h6{
+    width: 70%;
+    margin-left: 10%;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    margin-top: -175px;
+}

@@ -1,0 +1,30 @@
+.thrive-banner{
+    background: url(../assets/trivr-banner.png);
+    width: 100%;
+    height: 565px;
+    background-size: cover;
+    background-position: -760px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.thrive-banner h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.thrive-btn{
+    background: whitesmoke;
+    width: 180px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(22, 166, 255);
+    margin-top: 20px;
+}

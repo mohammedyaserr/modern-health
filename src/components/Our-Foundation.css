@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.foundation-cotainer{
+    width: 100%;
+    height: 1560px;
+    background: rgb(22, 166, 255);
+    
+}
+.fountation-banner{
+    background: #000;
+    height: 780px;
+    background: url('../assets/third-banner-img.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 130px;  
+}
+.foundation-headings{
+    width: 80%;
+    height: 210px;
+    margin-left: 10%;
+}
+
+.foundation-headings p {
+    color: rgb(22, 166, 255);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.foundation-headings h3 {
+    color: white;
+    font-size: 45px;
+    width: 600px;
+}
+.foundation-grids-container{
+    margin-left: 10%;
+    width: 80%;
+    height: 1100px;
+    margin-top: 50px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 2fr 2fr;
+}
+
+.foundation-grid-item{
+    border-radius: 15px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 490px;
+        
+
+}
+.foundation-inner-div{
+    width: 85%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.foundation-logo-container{
+    width: 100%;
+    margin-top: 30px;
+}
+.foundation-div-heading{
+    font-size: 35px;
+    width: 80%;
+}
+.foundation-div-para{
+    width: 390px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.foundation-div-para b{
+    font-weight: 600;
+}
+.foundation-button button{
+    margin-top: 20px;
+    width: 120px;
+    height: 45px;
+    border-radius: 25px;
+    border: solid rgb(22, 166, 255);
+    padding-left: 8px;
+    padding-right: 8px;
+}
