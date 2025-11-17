@@ -16,7 +16,7 @@ const Running = () => {
                 <div className="run-logos">
                     <Slider
                         width="250px"
-                        duration={5}
+                        duration={15}
                         pauseOnHover={false}
                         blurBorders={false}
                         blurBorderColor={'#000'}>

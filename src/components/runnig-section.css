@@ -22,7 +22,7 @@
     height: 100px;
     display: flex;
     align-items: center;
-    background: #000;
+    /* background: #000; */
 }
 .run-logos img{
     width: 250px;
